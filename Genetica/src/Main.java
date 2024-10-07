@@ -2,11 +2,13 @@ import java.util.Scanner;
 
 public class Main {
 
+	private static Scanner teclado;
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
 		
-		Scanner teclado = new Scanner(System.in);
+		teclado = new Scanner(System.in);
 		
 		System.out.println("Ingrese valor para primer alelo (A o a)");
 		String alelo1 = teclado.nextLine();
